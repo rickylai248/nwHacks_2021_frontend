@@ -33,7 +33,7 @@ const SecondPage = () => {
     
           <Grid container item spacing={2} direction="column" alignItems="center">
                 <Grid item>
-                <h1 class="cool-class">Almsot There!</h1>
+                <h1 class="cool-class">Almost There!</h1>
                 </Grid>
                 <Grid item>
             <img src={page2img1} className="App-logo" alt="page2img1" />
