@@ -52,10 +52,11 @@ const SecondPage = () => {
                      <Button
                             onClick={(event) => {
                             event.preventDefault();
-                            history.push("/secondPage");
+                            history.push("/ThirdPage");
                             }}
                             classes={{ root: classes.skip}}
                         > Skip.
+
                     
                     </Button>
                 </Grid>
