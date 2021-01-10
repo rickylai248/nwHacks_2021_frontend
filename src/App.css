@@ -3,15 +3,17 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  /*height: 40vmin;*/
+  width: 400px;
+  height: 400px;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -28,129 +30,47 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-p {
-    font-style: italic;
-}
-
-/*pargrah is the selector*/
 .cool-class {
-    font-weight: bold;
-    color: blue;
+
+  width: 295px;
+  height: 66px;
+  left: 63px;
+  top: 46px;
+
+  text-align: center;
+  font-family: Proza Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #2E4277;
 }
 
 #cool-class2 {
-    color: green;
+
+  width: 295px;
+  height: 66px;
+  left: 63px;
+  top: 46px;
+
+  font-family: Proza Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #2E4277;
 }
 
-.grid-table {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto;
-}
+#login-info {
+ 
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E4277;
+  
 
-/*Media Query*/
-.container {
-    max-width: 840px;
-    margin: 0 auto;
-    /*top ,left right,container is centered on the page*/
-}
-
-body {
-    font-family: 'Noto Sans', sans-serif;
-    background-color: #e2f8ec;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    font-family: 'Roboto Mono', monospace;
-}
-
-.intro {
-    text-align: center;
-}
-
-.profile-picture {
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    box-shadow: 0 4px 8px 0 rgba(39, 54, 65, 0.16);
-}
-
-.profile-picture:hover {
-    box-shadow: 0 8px 40px 0 rgba(39, 54, 65, 0.16);
-}
-
-.about-grid {
-    display: grid;
-    grid-template-columns: 50% 50%
-        /*split half way*/
-}
-
-.about-section {
-    text-align: center;
-}
-
-.about-list {
-    list-style: none;
-    padding: 0;
-
-}
-
-@media (max-width:480px) {
-    .about-grid {
-        grid-template-columns: 100%;
-        /*only one column*/
-    }
-}
-
-/*Projects */
-
-.heading {
-    text-align: center;
-}
-
-.project-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.project-image {
-    justify-self: center;
-}
-
-@media(max-width: 650px) {
-    .projects-grid {
-        grid-template-columns: 100%;
-    }
-}
-
-.contact {
-    display: grid;
-    grid-template-columns: 30% 70%;
-}
-
-.link {
-    justify-self: center;
-}
-
-.links-list {
-    list-style: none;
-    padding: 0;
-}
-
-@media (max-width:650px) {
-    .contact {
-        grid-template-columns: 100%
-    }
+  
 }
