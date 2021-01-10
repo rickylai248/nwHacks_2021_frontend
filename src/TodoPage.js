@@ -5,24 +5,9 @@ import Grid from "@material-ui/core/Grid";
 
 
 
-const useStyles = makeStyles((theme) => ({
-  addtodo: {
-      "& .MuiTextField-root": {
-        margin: theme.spacing(1),
-        width: "25ch",
-      },
-    }/*,
-    send: {
-      backgroundColor: "#FFD600",
-      "&:hover": {
-        backgroundColor: "#FFD600",
-      },
-    },*/
-  }));
-  
 
 const TodoPage = () => {
-    const classes = useStyles();
+   /* const classes = useStyles();*/
     return (
       <>
         <Grid container spacing={3} direction="column" alignItems="center">
@@ -32,7 +17,7 @@ const TodoPage = () => {
           <Grid item>
                     <ul class ="about-list">                      
                         <li id = "login-info" >Task:</li>
-                            <label for = "Tasks">
+                            <label for = "Add Title">
                                <input type ="text" id = "tasks" placeholder="Add Your Task Here" />
                           </label>       
                   </ul>
@@ -53,9 +38,9 @@ const TodoPage = () => {
 						<ul></ul>
 					</section>
 				</div>
-      
+                
+            
       </Grid>
-
   </Grid>
       </>
     );
