@@ -70,7 +70,16 @@
   font-size: 16px;
   line-height: 22px;
   color: #2E4277;
-  
+}
 
+#calendar-info {
+ 
+  line-height: 50px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
   
+  color: #2E4277;
 }

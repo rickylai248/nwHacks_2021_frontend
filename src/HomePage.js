@@ -1,50 +1,27 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-
+import history from "./history";
 
 import page1img1 from "./page1img1.svg";
 import page1img2 from "./page1img2.svg";
-/*import calm from "./calm.svg";
-import depressed from "./depressed.svg";
-import stressed from "./stressed.svg";
-import happy from "./happy.svg";*/
 
 /*import Box from "./Box";*/
 /*import BackgroundBox from "./BackgroundBox";*/
-/*import Button from "./Button";
-import history from "./history";*/
+import Button from "./Button";
+
+
 
 
 const useStyles = makeStyles(() => ({
-  happy: {
-    backgroundColor: "#FFD9AC",
-    border: "3px solid #FEA53F",
+  login: {
+    backgroundColor: "#FFFFFF",
+    border: "3px solid #1B2A4F",
     "&:hover": {
-      backgroundColor: "#FFD9AC",
+      backgroundColor: "#798FFE",
     },
-  },
-  calm: {
-    backgroundColor: "#EBD4F4",
-    border: "3px solid #D499EB",
-    "&:hover": {
-      backgroundColor: "#EBD4F4",
-    },
-  },
-  depressed: {
-    backgroundColor: "#CCD3FA",
-    border: "3px solid #526AF0",
-    "&:hover": {
-      backgroundColor: "#CCD3FA",
-    },
-  },
-  stressed: {
-    backgroundColor: "#DCFFCA",
-    border: "3px solid #8CD167",
-    "&:hover": {
-      backgroundColor: "#DCFFCA",
-    },
-  },
+  }
+ 
 }));
 
 const HomePage = () => {
@@ -52,7 +29,7 @@ const HomePage = () => {
 
   return (
     <>
-      <Grid container spacing={15} direction="column" alignItems="center">
+      <Grid container spacing={3} direction="column" alignItems="center">
       
         <Grid container item spacing={2} direction="column" alignItems="center">
           <Grid item>
@@ -79,10 +56,18 @@ const HomePage = () => {
                     </ul>
              </Grid>
           <Grid item>
+          <Button
+                    onClick={(event) => {
+                      event.preventDefault();
+                      history.push("/secondPage");
+                    }}
+                    classes={{ root: classes.login}}
+                  >
             <img src={page1img2} className="App-logo" alt="page1img2" />
-            
+            </Button>
           </Grid>
         </Grid>
+
     </Grid>
     </>
   );
