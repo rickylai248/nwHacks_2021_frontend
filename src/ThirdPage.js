@@ -34,7 +34,7 @@ const ThirdPage = () => {
     
           <Grid container item spacing={2} direction="column" alignItems="center">
                 <Grid item>
-                <h1 class="cool-class">Hello Lisa!</h1>
+                <h2 class="cool-class">Hello Lisa!</h2>
                 <h1 id="cool-class2">Here is your personalized schedule</h1>
                 </Grid>
 
@@ -53,7 +53,7 @@ const ThirdPage = () => {
             </Button>
           </Grid>                
                 <Grid item>
-            <img src={page3component} className="App-logo" alt="page3component" />
+            <img src={page3component} className="Schedule-logo" alt="page3component" />
                 </Grid>   
              
           </Grid>

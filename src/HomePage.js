@@ -16,10 +16,6 @@ import Button from "./Button";
 const useStyles = makeStyles(() => ({
   login: {
     backgroundColor: "#FFFFFF",
-    border: "3px solid #1B2A4F",
-    "&:hover": {
-      backgroundColor: "#798FFE",
-    },
   }
  
 }));
@@ -47,6 +43,7 @@ const HomePage = () => {
                             </label>       
                           <li id = "login-info">Email:</li>
                            <label for = "Email:" >
+                  
                                    <input type ="email"  placehodler="Enter your email" />
                               </label>
                           <li id = "login-info">Password:</li>
@@ -59,11 +56,11 @@ const HomePage = () => {
           <Button
                     onClick={(event) => {
                       event.preventDefault();
-                      history.push("/secondPage");
+                      history.push("/SecondPage");
                     }}
                     classes={{ root: classes.login}}
                   >
-            <img src={page1img2} className="App-logo" alt="page1img2" />
+            <img src={page1img2} className="Account-logo" alt="page1img2" />
             </Button>
           </Grid>
         </Grid>

@@ -39,9 +39,9 @@ const SecondPage = () => {
             <img src={page2img1} className="App-logo" alt="page2img1" />
                 </Grid>
                 <Grid item>
-                    <p>Import Your Calendars.</p>
+                    <h2>Import Your Calendars.</h2>
                             <ul class ="about-list">                      
-                                <li id = "calendar-info" >(TODO: Add selection) Canvas</li>
+                                <li id = "calendar-info" > Canvas</li>
 
                                 <li id = "calendar-info">Google</li>
 
