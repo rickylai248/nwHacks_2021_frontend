@@ -59,7 +59,7 @@ const HomePage = () => {
           <Button
                     onClick={(event) => {
                       event.preventDefault();
-                      history.push("/secondPage");
+                      history.push("/SecondPage");
                     }}
                     classes={{ root: classes.login}}
                   >
