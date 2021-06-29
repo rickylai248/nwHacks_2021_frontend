@@ -1,6 +1,6 @@
 ProductiveMe Wellness App (nwHacks 2021, University of British Columbia, Vancouver, Canada)
 
-ProductiveMe, minimalist by design, engages with and encourages the user to synchronize their calendar with the app, generating a personalized schedule. The goal of the individual schedules is to help users manage their time better and have study breaks to maxmize productivity. Moreover, this application aims to promote collective wellness by offering different features such as catered exercises including meditation.
+ProductiveMe, minimalist by design, engages with and encourages the user to synchronize their calendar with the app, generating a personalized schedule. The goal of the individual schedules is to help users manage their time better and have study breaks to maxmize productivity. Moreover, this application aims to promote collective wellness by offering different features such as catered exercises including meditation!
 
 ![image](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/331/495/datas/original.png)
 
