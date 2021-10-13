@@ -4,7 +4,7 @@ ProductiveMe, minimalist by design, engages with and encourages the user to sync
 
 ![image](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/331/495/datas/original.png)
 
-# Getting Started with Create React App
+# Getting Started with Create React App 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
  
